@@ -1,0 +1,51 @@
+@import fonts
+@import colors
+
+*, *::before, *::after
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  scrollbar-width: thin
+  scrollbar-color: var(--text) black
+  -webkit-tap-highlight-color: transparent
+
+::-webkit-scrollbar 
+  width: 4px
+  height: 4px
+  background-color: transparent
+    
+::-webkit-scrollbar-thumb
+  background: var(--text)
+
+html
+  overflow: hidden
+  height: 100%
+
+body
+  font-family: 'MADETOMMY', sans-serif
+  background-color: var(--background)
+  color: var(--text)
+  height: 100%
+
+button
+  background-color: transparent
+  border: none
+  fill: white
+  cursor: pointer
+
+  &:hover
+    color: var(--border)
+    fill: var(--border)
+
+a
+  &, svg
+    color: var(--text)
+    fill: var(--text)
+
+  &:hover, &:hover svg
+    color: var(--border)
+    fill: var(--border)
+
+a, button
+  &:focus
+    outline: 1px dotted var(--border)
