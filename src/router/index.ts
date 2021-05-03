@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import BlankLayout from '@/layouts/BlankLayout.vue'
+import BlankLayout from '@/layouts/Blank.vue'
 
 import NotFound from '@/pages/NotFound.vue'
 

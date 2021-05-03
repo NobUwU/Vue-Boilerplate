@@ -1,8 +1,8 @@
 import Vue from 'vue'
 
-import './ServiceWorker'
+import './serviceWorker'
 
-import App from './Index.vue'
+import App from './App.vue'
 import router from './router'
 import store from './store'
 

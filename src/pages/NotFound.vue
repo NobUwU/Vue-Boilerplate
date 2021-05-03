@@ -1,4 +1,4 @@
 <template lang="pug">
   section
-    h1 Hello World!
+    h1 404
 </template>
