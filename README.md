@@ -1,4 +1,4 @@
-# React Snowpack Fullstack Boilerplate
+# Vue Webebpack Fullstack Boilerplate
 A Typescript, Vue, Webpack Fullstack Boilerplate
 
 ## Usage
