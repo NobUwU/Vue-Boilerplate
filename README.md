@@ -1,4 +1,4 @@
-# Vue Webebpack Fullstack Boilerplate
+# Vue Webpack Fullstack Boilerplate
 A Typescript, Vue, Webpack Fullstack Boilerplate
 
 ## Usage
